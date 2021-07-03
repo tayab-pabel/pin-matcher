@@ -1,116 +1,109 @@
 *{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 body {
     background: #10101B;
-    height: 100vh;
+    font-family: 'Courier Prime', monospace;
 }
 
-.container {
-    margin-top: 30px;
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #495BC3;
 }
 
-.half-width {
-    height: 570px;
+.card {
+    height: 600px;
     background: #222436;
-    padding: 30px;
-    text-align: center;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.generate-btn{
-    margin-top: 140px;
-    width: 180px;
+.form-control {
+    font-size: 20px;
+    padding: 25px 15px;
+    
+    background-color: #3D4153;
+    border: none;
+    border: 2px solid #858299;
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    background-color: #3D4153;
+    border: 2px solid #495BC3;
+    outline: 0;
+    box-shadow: none;
+}
+
+.generate-btn {
+    margin-top: 130px;
+    width: 225px;
+    height: 225px;
     padding: 50px;
     border-radius: 50%;
-    border: 8px solid #39458C;
+    border: 10px solid #39458C;
     background-color: #495BC3;
     color: #ffffff;
-    font-weight: bold;
     font-size: 20px;
-    text-align: center;
+    text-transform: uppercase;
 }
 
-.generate-btn:focus{
+.generate-btn:focus,
+.generate-btn:hover,
+.submit-btn:focus,
+.submit-btn:hover {
+    color: #ffffff;
     outline: none;
     box-shadow: none;
 }
 
-input[type='text']{
-    background-color: #3D4153!important;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 0px;
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
-    border: 2px solid #858299;
-    height: 50px;
-    padding: 10px;
-}
-
-input[type='text']:focus {
-    background-color: #3D4153;
-    text-align: center;
-    font-size: 20px;
-}
-
-.numbers {
-    margin: 30px 0;
-}
-
-.calc-typed {
-margin-top: 20px;
-font-size: 45px;
-text-align: right;
-color: #fff;
-}
-
-.calc-button-row {
-width: 100%;
-}
-
 .button {
-width: 20%;
-background: #425062;
-color: #fff;
-padding: 20px 0;
-margin: 5px;
-display: inline-block;
-font-size: 25px;
-text-align: center;
-vertical-align: middle;
-margin-right: -4px;
-border-radius: 10px;
-cursor: pointer;
+    width: 25%;
+    background: #425062;
+    color: #fff;
+    padding: 20px 0;
+    margin: 5px;
+    display: inline-block;
+    font-size: 25px;
+    vertical-align: middle;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-.blink-me {
-color: #E0B612;
+.button:hover {
+    background: #495BC3;
 }
 
 .submit-btn {
-    border: none;
     margin-top: 20px;
-    padding: 10px 120px;
-    border-radius: 5px;
+    padding: 15px 60px;
+    border-radius: 10px;
     background: #495BC3;
     color: #fff;
 }
 
+.notify-section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .notify {
     color: #fff;
-    text-align: center;
     margin: 0 auto;
     background: #222436;
     margin-top: 20px;
-    border-radius: 15px;
-    padding: 5px 20px;
-}
-
-.notify-section{
-    width: 35%;
-    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 1;
+    display: none;
 }
 
 .action-left {
