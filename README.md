@@ -1,5 +1,5 @@
 # Pin Matcher
-## ([Live Preview](https://tayab-pabel.github.io/shopping-cart/))
+## ([Live Preview](https://tayab-pabel.github.io/pin-matcher/))
 ## Features
    - It's a vanilla js project.
    - Generate auto pin and checking the pin with user input is correct or not.
